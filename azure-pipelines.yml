@@ -58,8 +58,8 @@ stages:
       inputs:
         connectionType: 'Azure Resource Manager'
         azureSubscription: 'Visual Studio Enterprise(c456a890-c362-4b0c-981c-4c04e3164478)'
-        azureResourceGroup: 'aks-demo'
-        kubernetesCluster: 'aks-demo'
+        azureResourceGroup: 'aks-k8s-cluster-rg'
+        kubernetesCluster: 'aks-k8s-cluster'
         command: 'upgrade'
         chartType: 'FilePath'
         chartPath: 'charts/productsstore'
